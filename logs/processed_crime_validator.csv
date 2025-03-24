@@ -1,2 +1,0 @@
-Date,Message,Status,Type
-2025-03-24 11:00:33,SEVERE: Column 'severity_score' contains values that are not of type <class 'int'>.,ERROR,VALIDATION
