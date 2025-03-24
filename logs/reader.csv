@@ -1,0 +1,373 @@
+Date,Message,Status,Type
+2025-03-23 22:57:52,Reading input files,INFO,FILE
+2025-03-23 22:57:52,Reading chicago.xlsx,INFO,FILE
+2025-03-23 22:57:52,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-23 22:57:52,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-23 22:57:52,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-23 22:57:52,Reading iris.xlsx,INFO,FILE
+2025-03-23 22:57:52,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-23 22:57:52,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-23 22:57:52,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-23 22:57:52,Reading titanic.xlsx,INFO,FILE
+2025-03-23 22:57:52,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-23 22:57:52,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-23 22:57:52,Error reading files: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).,ERROR,FILE
+2025-03-23 22:58:09,Reading input files,INFO,FILE
+2025-03-23 22:58:09,Reading chicago.xlsx,INFO,FILE
+2025-03-23 22:58:09,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-23 22:58:09,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-23 22:58:09,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-23 22:58:09,Reading iris.xlsx,INFO,FILE
+2025-03-23 22:58:09,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-23 22:58:09,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-23 22:58:09,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-23 22:58:09,Reading titanic.xlsx,INFO,FILE
+2025-03-23 22:58:10,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-23 22:58:10,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-23 22:58:10,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-23 22:58:10,Reading wine.xlsx,INFO,FILE
+2025-03-23 22:58:10,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-23 22:58:10,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-23 22:58:10,Error reading files: There are severe errors in the dataset wine.xlsx-WINE. Please check the logs for more details.,ERROR,FILE
+2025-03-23 23:00:03,Reading input files,INFO,FILE
+2025-03-23 23:00:03,Reading chicago.xlsx,INFO,FILE
+2025-03-23 23:00:03,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-23 23:00:03,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-23 23:00:03,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-23 23:00:03,Reading iris.xlsx,INFO,FILE
+2025-03-23 23:00:03,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-23 23:00:03,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-23 23:00:03,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-23 23:00:03,Reading titanic.xlsx,INFO,FILE
+2025-03-23 23:00:03,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-23 23:00:03,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-23 23:00:03,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-23 23:00:03,Reading wine.xlsx,INFO,FILE
+2025-03-23 23:00:03,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-23 23:00:03,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-23 23:00:03,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-23 23:00:03,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:05:43,Reading input files,INFO,FILE
+2025-03-24 10:05:43,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:05:43,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:05:43,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:05:43,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:05:43,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:05:43,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:05:43,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:05:43,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:05:43,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:05:43,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:05:43,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:05:43,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:05:43,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:05:43,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:05:43,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:05:43,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:05:43,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:13:40,Reading input files,INFO,FILE
+2025-03-24 10:13:40,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:13:41,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:13:41,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:13:41,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:13:41,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:13:41,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:13:41,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:13:41,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:13:41,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:13:41,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:13:41,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:13:41,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:13:41,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:13:41,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:13:41,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:13:41,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:13:41,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:16:48,Reading input files,INFO,FILE
+2025-03-24 10:16:48,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:16:48,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:16:48,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:16:48,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:16:48,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:16:48,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:16:48,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:16:48,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:16:48,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:16:48,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:16:48,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:16:48,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:16:48,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:16:48,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:16:48,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:16:48,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:16:48,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:17:29,Reading input files,INFO,FILE
+2025-03-24 10:17:29,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:17:29,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:17:29,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:17:29,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:17:29,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:17:29,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:17:29,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:17:29,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:17:29,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:17:29,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:17:29,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:17:29,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:17:29,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:17:30,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:17:30,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:17:30,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:17:30,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:20:35,Reading input files,INFO,FILE
+2025-03-24 10:20:35,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:20:35,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:20:35,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:20:35,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:20:35,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:20:35,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:20:35,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:20:35,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:20:35,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:20:35,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:20:35,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:20:35,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:20:35,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:20:35,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:20:35,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:20:35,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:20:35,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:21:14,Reading input files,INFO,FILE
+2025-03-24 10:21:14,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:21:14,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:21:14,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:21:15,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:21:15,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:21:15,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:21:15,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:21:15,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:21:15,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:21:15,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:21:15,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:21:15,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:21:15,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:21:15,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:21:15,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:21:15,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:21:15,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:25:14,Reading input files,INFO,FILE
+2025-03-24 10:25:14,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:25:14,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:25:14,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:25:14,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:25:14,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:25:15,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:25:15,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:25:15,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:25:15,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:25:15,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:25:15,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:25:15,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:25:15,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:25:15,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:25:15,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:25:15,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:25:15,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:25:29,Reading input files,INFO,FILE
+2025-03-24 10:25:29,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:25:29,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:25:29,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:25:29,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:25:29,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:25:29,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:25:29,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:25:29,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:25:29,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:25:29,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:25:29,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:25:29,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:25:29,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:25:29,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:25:29,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:25:29,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:25:29,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:26:47,Reading input files,INFO,FILE
+2025-03-24 10:26:47,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:26:47,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:26:47,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:26:47,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:26:47,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:26:47,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:26:47,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:26:47,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:26:47,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:26:48,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:26:48,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:26:48,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:26:48,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:26:48,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:26:48,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:26:48,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:26:48,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:27:38,Reading input files,INFO,FILE
+2025-03-24 10:27:38,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:27:38,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:27:38,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:27:38,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:27:38,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:27:38,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:27:38,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:27:38,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:27:38,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:27:38,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:27:38,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:27:38,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:27:38,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:27:38,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:27:38,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:27:38,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:27:38,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:28:17,Reading input files,INFO,FILE
+2025-03-24 10:28:17,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:28:17,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:28:17,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:28:17,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:28:17,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:28:17,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:28:17,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:28:17,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:28:17,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:28:17,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:28:17,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:28:17,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:28:17,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:28:17,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:28:17,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:28:17,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:28:17,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:30:41,Reading input files,INFO,FILE
+2025-03-24 10:30:41,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:30:42,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:30:42,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:30:42,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:30:42,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:30:42,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:30:42,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:30:42,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:30:42,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:30:42,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:30:42,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:30:42,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:30:42,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:30:42,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:30:42,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:30:42,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:30:42,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:34:05,Reading input files,INFO,FILE
+2025-03-24 10:34:05,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:34:06,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:34:06,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:34:06,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:34:06,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:34:06,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:34:06,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:34:06,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:34:06,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:34:06,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:34:06,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:34:06,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:34:06,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:34:06,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:34:06,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:34:06,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:34:06,Finished reading input files,SUCCESS,FILE
+2025-03-24 10:34:30,Reading input files,INFO,FILE
+2025-03-24 10:34:30,Reading chicago.xlsx,INFO,FILE
+2025-03-24 10:34:30,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 10:34:30,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 10:34:30,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 10:34:30,Reading iris.xlsx,INFO,FILE
+2025-03-24 10:34:30,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 10:34:30,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 10:34:30,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 10:34:30,Reading titanic.xlsx,INFO,FILE
+2025-03-24 10:34:30,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 10:34:30,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 10:34:30,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 10:34:30,Reading wine.xlsx,INFO,FILE
+2025-03-24 10:34:31,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 10:34:31,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 10:34:31,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 10:34:31,Finished reading input files,SUCCESS,FILE
+2025-03-24 11:00:33,Reading input files,INFO,FILE
+2025-03-24 11:00:33,Reading chicago.xlsx,INFO,FILE
+2025-03-24 11:00:33,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 11:00:33,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 11:00:33,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 11:00:33,Reading iris.xlsx,INFO,FILE
+2025-03-24 11:00:33,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 11:00:33,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 11:00:33,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 11:00:33,Reading titanic.xlsx,INFO,FILE
+2025-03-24 11:00:33,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 11:00:33,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 11:00:33,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 11:00:33,Reading wine.xlsx,INFO,FILE
+2025-03-24 11:00:33,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 11:00:33,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 11:00:33,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 11:00:33,Finished reading input files,SUCCESS,FILE
+2025-03-24 11:01:21,Reading input files,INFO,FILE
+2025-03-24 11:01:21,Reading chicago.xlsx,INFO,FILE
+2025-03-24 11:01:21,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 11:01:21,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 11:01:21,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 11:01:21,Reading iris.xlsx,INFO,FILE
+2025-03-24 11:01:21,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 11:01:21,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 11:01:21,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 11:01:21,Reading titanic.xlsx,INFO,FILE
+2025-03-24 11:01:21,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 11:01:21,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 11:01:21,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 11:01:21,Reading wine.xlsx,INFO,FILE
+2025-03-24 11:01:21,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 11:01:21,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 11:01:21,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 11:01:21,Finished reading input files,SUCCESS,FILE
+2025-03-24 11:07:49,Reading input files,INFO,FILE
+2025-03-24 11:07:49,Reading chicago.xlsx,INFO,FILE
+2025-03-24 11:07:50,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 11:07:50,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 11:07:50,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 11:07:50,Reading iris.xlsx,INFO,FILE
+2025-03-24 11:07:50,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 11:07:50,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 11:07:50,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 11:07:50,Reading titanic.xlsx,INFO,FILE
+2025-03-24 11:07:50,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 11:07:50,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 11:07:50,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 11:07:50,Reading wine.xlsx,INFO,FILE
+2025-03-24 11:07:50,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 11:07:50,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 11:07:50,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 11:07:50,Finished reading input files,SUCCESS,FILE
+2025-03-24 11:17:23,Reading input files,INFO,FILE
+2025-03-24 11:17:23,Reading chicago.xlsx,INFO,FILE
+2025-03-24 11:17:24,Read 1000 rows from chicago.xlsx,SUCCESS,FILE
+2025-03-24 11:17:24,Validating chicago.xlsx-CHICAGO,INFO,FILE
+2025-03-24 11:17:24,Validation successful for chicago.xlsx-CHICAGO,SUCCESS,FILE
+2025-03-24 11:17:24,Reading iris.xlsx,INFO,FILE
+2025-03-24 11:17:24,Read 149 rows from iris.xlsx,SUCCESS,FILE
+2025-03-24 11:17:24,Validating iris.xlsx-IRIS,INFO,FILE
+2025-03-24 11:17:24,Validation successful for iris.xlsx-IRIS,SUCCESS,FILE
+2025-03-24 11:17:24,Reading titanic.xlsx,INFO,FILE
+2025-03-24 11:17:24,Read 891 rows from titanic.xlsx,SUCCESS,FILE
+2025-03-24 11:17:24,Validating titanic.xlsx-TITANIC,INFO,FILE
+2025-03-24 11:17:24,Validation successful for titanic.xlsx-TITANIC,SUCCESS,FILE
+2025-03-24 11:17:24,Reading wine.xlsx,INFO,FILE
+2025-03-24 11:17:24,Read 1599 rows from wine.xlsx,SUCCESS,FILE
+2025-03-24 11:17:24,Validating wine.xlsx-WINE,INFO,FILE
+2025-03-24 11:17:24,Validation successful for wine.xlsx-WINE,SUCCESS,FILE
+2025-03-24 11:17:24,Finished reading input files,SUCCESS,FILE

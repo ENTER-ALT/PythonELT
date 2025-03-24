@@ -1,0 +1,312 @@
+Date,Message,Status,Type
+2025-03-24 10:05:44,Transformation of dataset wine.xlsx-WINE failed with error 'T',ERROR,TRANSFORMATION
+2025-03-24 10:13:41,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=Alcohol Per Liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=Alcohol Per Liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=Total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=Total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation RoundColumn(columns=Total acidity, decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation of dataset wine.xlsx-WINE failed with error 'T',ERROR,TRANSFORMATION
+2025-03-24 10:16:48,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation RoundColumn(columns=total acidity, decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation of dataset wine.xlsx-WINE failed with error 't',ERROR,TRANSFORMATION
+2025-03-24 10:17:30,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:36,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:36,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:36,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:36,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:36,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:36,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:20:36,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:36,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 15], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Starting transformation of dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithMean(columns=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density', 'pH', 'sulphates', 'alcohol']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DropNa(columns=['quality']) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DropNa(columns=['quality']) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation MultiplyInto(column1=alcohol, column2=density, result_column=alcohol per liter) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation AddInto(column1=fixed acidity, column2=volatile acidity, result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation RoundColumn(columns=['total acidity'], decimals=0) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation RoundColumn(columns=['total acidity'], decimals=0) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DivideInto(column1=citric acid, column2=total acidity, result_column=acid ratio) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CutIntoCategories(column=quality, bins=[0, 5, 7, 10], labels=['Low', 'Medium', 'High'], result_column=quality) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 17], labels=['Low', 'Medium', 'High'], result_column=total acidity) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CutIntoCategories(column=total acidity, bins=[0, 5, 10, 17], labels=['Low', 'Medium', 'High'], result_column=total acidity) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DivideInto(column1=residual sugar, column2=density, result_column=normalized residual sugar) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CutIntoCategories(column=residual sugar, bins=[0, 4, 12, 50], labels=['Dry', 'Medium', 'Sweet'], result_column=sweetness level) applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeWQI on dataset wine.xlsx-WINE,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeWQI applied on dataset wine.xlsx-WINE,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Transformation of dataset wine.xlsx-WINE completed,SUCCESS,TRANSFORMATION

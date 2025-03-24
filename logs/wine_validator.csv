@@ -1,0 +1,2 @@
+Date,Message,Status,Type
+2025-03-23 22:58:10,SEVERE: Column 'alcohol' contains values greater than 14.,ERROR,VALIDATION

@@ -1,0 +1,385 @@
+Date,Message,Status,Type
+2025-03-24 10:13:41,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:27:38,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:27:38,Transformation of dataset iris.xlsx-IRIS failed with error Must have equal len keys and value when setting with an iterable,ERROR,TRANSFORMATION
+2025-03-24 10:28:17,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:30:42,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:30:42,Transformation of dataset iris.xlsx-IRIS failed with error 'Sepal Area',ERROR,TRANSFORMATION
+2025-03-24 10:34:06,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Starting transformation of dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithMean(columns=['Sepal Length', 'Sepal Width', 'Petal Length', 'Petal Width']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DropNa(columns=['Species']) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DropNa(columns=['Species']) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DropDuplicates() on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DropDuplicates() applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeArea(Sepal Area, Sepal Length, Sepal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeArea(Petal Area, Petal Length, Petal Width) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeArea(Petal Area, Petal Length, Petal Width) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation RoundColumn(columns=['Sepal Area', 'Petal Area'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeFlowerComplexityScore on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeFlowerComplexityScore applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation RoundColumn(columns=['Flower Complexity Score'], decimals=2) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation MergeDataFrame(on_column=Species) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation MergeDataFrame(on_column=Species) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CastColumnType(columns=['Species'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CastColumnType(columns=['Species'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CastColumnType(columns=['Average_Height'], dtype=<class 'float'>) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation CastColumnType(columns=['Color'], dtype=category) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation CastColumnType(columns=['Color'], dtype=category) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) on dataset iris.xlsx-IRIS,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation SplitColumn(column=Species, new_columns=['Genus', 'Species_Name'], delimiter=-) applied on dataset iris.xlsx-IRIS,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Transformation of dataset iris.xlsx-IRIS completed,SUCCESS,TRANSFORMATION

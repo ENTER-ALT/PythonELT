@@ -1,0 +1,393 @@
+Date,Message,Status,Type
+2025-03-24 10:13:41,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:13:41,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:13:41,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:16:48,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:16:48,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:17:30,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:17:30,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:20:35,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:20:35,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:21:15,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:21:15,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:15,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:15,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:25:29,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:25:29,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:26:48,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:26:48,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:28:17,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:28:17,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:06,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:06,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 10:34:31,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 10:34:31,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:01:21,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:01:21,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:07:50,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:07:50,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Starting transformation of dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithMean(columns=['Age', 'Fare']) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithMean(columns=['Age', 'Fare']) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation RoundColumn(columns=['Age'], decimals=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation RoundColumn(columns=['Age'], decimals=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation RoundColumn(columns=['Fare'], decimals=2) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation RoundColumn(columns=['Fare'], decimals=2) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithValue(columns=['Embarked'], value=S) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithValue(columns=['Embarked'], value=S) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithValue(columns=['Cabin', 'Name', 'Ticket'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithValue(columns=['Sex'], value=Unknown) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithValue(columns=['Sex'], value=Unknown) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation FillNaWithValue(columns=['SibSp', 'Parch', 'Survived'], value=0) applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation DropDuplicates() on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation DropDuplicates() applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeFamilySize on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeFamilySize applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeDateOfBirth on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeDateOfBirth applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeIsMainBooker on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeIsMainBooker applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ExtractNameComponents on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ExtractNameComponents applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Applying transformation ComputeSurvivalProbabilityIndex on dataset titanic.xlsx-TITANIC,INFO,TRANSFORMATION
+2025-03-24 11:17:24,Transformation ComputeSurvivalProbabilityIndex applied on dataset titanic.xlsx-TITANIC,SUCCESS,TRANSFORMATION
+2025-03-24 11:17:24,Transformation of dataset titanic.xlsx-TITANIC completed,SUCCESS,TRANSFORMATION
