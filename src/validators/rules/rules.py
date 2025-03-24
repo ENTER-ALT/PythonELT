@@ -52,6 +52,7 @@ class AllowedValuesRule(Rule):
         return []
 
 
+
 class MinValueRule(Rule):
     def __init__(self, min_value, error_severity=ErrorSeverity.SEVERE):
         super().__init__(error_severity)
@@ -59,8 +60,13 @@ class MinValueRule(Rule):
 
     def validate(self, df, column_name):
         series = df[column_name]
+
+        # Convert to numeric, forcing non-numeric values to NaN
+        series = pd.to_numeric(series, errors='coerce')
+
         if (series.dropna() < self.min_value).any():
             return [Error(f"Column '{column_name}' contains values less than {self.min_value}.", self.error_severity)]
+        
         return []
 
 
@@ -71,6 +77,8 @@ class MaxValueRule(Rule):
 
     def validate(self, df, column_name):
         series = df[column_name]
+        # Convert to numeric, forcing non-numeric values to NaN
+        series = pd.to_numeric(series, errors='coerce')
         if (series.dropna() > self.max_value).any():
             return [Error(f"Column '{column_name}' contains values greater than {self.max_value}.", self.error_severity)]
         return []

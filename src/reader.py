@@ -23,6 +23,7 @@ class Reader:
                     dataset: DataSet = self.read_dataset(file)
                     result.append(dataset)
 
+            self.validate_datasets(result)
         except Exception as e:
             self.logger.log(f'Error reading files: {str(e)}', LogStatus.ERROR, LogType.FILE)
             raise e
@@ -33,12 +34,23 @@ class Reader:
         self.logger.log(f'Reading {file}', LogStatus.INFO, LogType.FILE)
         dataset: DataSet = DataSet.from_excel_file(file, self.folder)
         self.logger.log(f'Read {len(dataset.data)} rows from {file}', LogStatus.SUCCESS, LogType.FILE)
-
-        self.logger.log(f'Validating {dataset}', LogStatus.INFO, LogType.FILE)
-        validate_dataset(dataset)
-        self.logger.log(f'Validation successful for {dataset}', LogStatus.SUCCESS, LogType.FILE)
                     
         return dataset
+    
+    def validate_datasets(self, datasets: List[DataSet]) -> bool:
+        invalid_datasets = []
+        for dataset in datasets:
+            self.logger.log(f'Validating dataset {dataset}', LogStatus.INFO, LogType.VALIDATION, new_line=True)
+            is_valid = validate_dataset(dataset)
+            if not is_valid:
+                invalid_datasets.append(dataset)
+        if invalid_datasets:
+            string_datasets = ', '.join([str(dataset) for dataset in invalid_datasets])
+            self.logger.log(f'There are severe errors in datasets: {string_datasets}', LogStatus.ERROR, LogType.VALIDATION)
+            raise ValueError(f'There are severe errors in datasets: {string_datasets}')
+        self.logger.log('All datasets are valid', LogStatus.SUCCESS, LogType.VALIDATION)
+
+
 
 if __name__ == '__main__':
     reader = Reader()

@@ -33,7 +33,7 @@ processed_datasetType_validator_mapping = {
     DataSetType.WINE: ProcessedWineValidator()
 }
 
-def validate_dataset(dataset: DataSet):
+def validate_dataset(dataset: DataSet) -> bool:
     validator: DatasetValidator = datasetType_validator_mapping.get(dataset.dataset_type)
     if validator is None:
         raise ValueError(f'No validator found for dataset type: {dataset.dataset_type}')
@@ -41,9 +41,10 @@ def validate_dataset(dataset: DataSet):
     log_errors(errors, validator.logger)
     for error in errors:
         if error.severity == ErrorSeverity.SEVERE:
-            raise Exception(f'There are severe errors in the dataset {dataset}. Please check the logs for more details.')
+            return False
+    return True
 
-def validate_processed_dataset(dataset: DataSet):
+def validate_processed_dataset(dataset: DataSet) -> bool:
     validator: DatasetValidator = processed_datasetType_validator_mapping.get(dataset.dataset_type)
     if validator is None:
         raise ValueError(f'No validator found for dataset type: {dataset.dataset_type}')
@@ -51,7 +52,8 @@ def validate_processed_dataset(dataset: DataSet):
     log_errors(errors, validator.logger)
     for error in errors:
         if error.severity == ErrorSeverity.SEVERE:
-            raise Exception(f'There are severe errors in the processed dataset {dataset}. Please check the logs for more details.')
+            return False
+    return True
 
 def log_errors(errors: List[Error], logger: Logger) -> None:
     for error in errors:

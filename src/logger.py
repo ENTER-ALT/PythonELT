@@ -33,7 +33,7 @@ class LogMessage:
         return f'{self.log_type}:{self.log_status} - {self.message}'
 
     def to_csv(self) -> str:
-        return f'{self.log_date},{self.message},{self.log_status},{self.log_type}'
+        return f'{self.log_date},\"{self.message}\",{self.log_status},{self.log_type}'
 
 class Logger:
     def __init__(self, logs_filename: Optional[str], log_type: Optional[LogType]) -> None:
@@ -52,12 +52,15 @@ class Logger:
             self, message: str,
             log_status: LogStatus, 
             log_type: Optional[LogType] = None, 
-            display_message: bool = True
+            display_message: bool = True,
+            new_line: bool = False
             ) -> None:
         log_type = log_type or self.log_type
         log_message = LogMessage(message, log_status, log_type)
         self.logs.append(log_message)
         if display_message:
+            if new_line:
+                print()
             print(log_message)
         self.save()
 

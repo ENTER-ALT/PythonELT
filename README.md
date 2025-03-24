@@ -1,5 +1,7 @@
 # PythonELT
 
+READ analyze.ipynb
+
 Data Engineering: Data Validation
 Task 1
 Create a folder ‘input’ and a folder ‘output’ on your laptop and create excel files from the datasets of
